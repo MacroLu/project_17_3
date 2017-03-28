@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eee;
+}
+header, main, footer {
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited{
+    color:black;
+}
+
+header {
+    width: 1003px;
+    height: 78px;
+    margin: 0 auto;
+    background-image: url(image/head_bg.jpg);
+    position: relative;
+}
+header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav_bg {
+    background-image:url(image/menu_bg.jpg);
+    width: 90px;
+    height: 78px;
+    float: left;
+    list-style-type: none;
+    display: inline;
+}
+
+.nav_1 {
+    position: absolute;
+    top:30px;
+    list-style-type: none;
+    float: left;
+    width: 90px;
+    height: 78px;
+    text-align: center;
+}
+
+
+
+main {
+    height: 464px;
+    width:  1003px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#homepage article{
+    width: 598px;
+    height: 390px;
+    padding-left: 40px;
+    padding-right: 4px;
+}
+#homepage article p {
+    text-indent: 2em;
+    font-family: "Microsoft YaHei UI";
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.main_banner {
+    width: 325px;
+    height: 464px;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+#secondPage {
+    display: none;
+}
+#secondPage .img{
+    border-bottom: 1px solid #999;
+    height: 132px;
+}
+#nav_2 {
+    width: 260px;
+    height: 410px;
+    border-right: 1px solid #999;
+    position: relative;
+}
+#nav_2 .edge{
+    list-style-type: none;
+    background-image: url(image/sec_menu_bg_b.jpg);
+    width: 260px;
+    height:54px;
+}
+
+.edge p {
+    font-size: 13px;
+}
+#content2{
+    list-style-type: none;
+    top: 17px;
+    left: 80px;
+    position: absolute;
+}
+#content2 li{
+    margin-bottom: 33px;
+}
+
+#company_news, #world_news, #company_phy, #message1{
+    display: none;
+    position: absolute;
+    right: 0;
+    top:133px;
+    width: 742px;
+}
+#company_news table {
+    width: 100%;
+    padding-left: 60px;
+}
+#company_news table td{
+    padding-bottom: 5px;
+}
+
+#world_news li{
+    margin-left: 60px;
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
+#company_phy .phy{
+    line-height: 1.8em;
+    padding: 0 60px;
+    font-size: 15px;
+}
+.phy p{
+    text-indent: 2em;
+}
+.phy h3{
+    font-size: 15px;
+}
+
+#message1 table{
+    width: 100%;
+    padding-left: 60px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+#message1 .left {
+    width:18%;
+    text-align: right;
+}
+#message1 table tr{
+    height:30px;
+}
+#message1 .button{
+    width:50px;
+}
+
+
+footer {
+    margin: 0 auto;
+    border-top: 1px solid #999 ;
+    width: 963px;
+    height: 38px;
+    text-align: center;
+    padding:20px;
+}
+footer p {
+    font-size: 12px;
+    line-height: 1.5em;
+}
